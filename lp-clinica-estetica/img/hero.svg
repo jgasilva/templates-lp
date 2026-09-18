@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf9"/>
+      <stop offset="50%" stop-color="#f4ece4"/>
+      <stop offset="100%" stop-color="#e8ded4"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b88a68"/>
+      <stop offset="100%" stop-color="#9c6644"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#725542" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgGrad)"/>
+  <circle cx="400" cy="460" r="320" fill="#ffffff" opacity="0.65"/>
+  <circle cx="400" cy="460" r="280" fill="none" stroke="#dfd4c8" stroke-width="1.5" stroke-dasharray="6 6"/>
+  
+  <!-- Face Contour & Silhouette (Minimalist Luxury Line Art) -->
+  <g filter="url(#softShadow)" transform="translate(400, 470)">
+    <!-- Silhueta da Face -->
+    <path d="M-90,-160 C-60,-220 60,-220 90,-160 C120,-100 130,-20 110,70 C95,140 40,210 0,230 C-40,210 -95,140 -110,70 C-130,-20 -120,-100 -90,-160 Z" fill="#ffffff" stroke="#9c6644" stroke-width="3"/>
+    
+    <!-- Linhas Anatômicas Harmoniosas -->
+    <!-- Olhos e Sobrancelhas -->
+    <path d="M-65,-60 C-50,-75 -25,-75 -10,-60" fill="none" stroke="#725542" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10,-60 C25,-75 50,-75 65,-60" fill="none" stroke="#725542" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-60,-40 C-45,-30 -25,-30 -15,-40" fill="none" stroke="#9c6644" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M15,-40 C25,-30 45,-30 60,-40" fill="none" stroke="#9c6644" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Nariz -->
+    <path d="M0,-35 L0,30 C-5,35 -12,35 -15,40" fill="none" stroke="#b88a68" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Lábios Definidos e Naturais -->
+    <path d="M-30,95 C-15,85 0,90 0,90 C0,90 15,85 30,95 C15,115 -15,115 -30,95 Z" fill="#f4ece4" stroke="#9c6644" stroke-width="2.5"/>
+    <path d="M-26,95 C-10,105 10,105 26,95" fill="none" stroke="#725542" stroke-width="1.5"/>
+
+    <!-- Pontos de Proporção Áurea / Harmonização Facial -->
+    <circle cx="-50" cy="10" r="5" fill="url(#goldAccent)"/>
+    <circle cx="50" cy="10" r="5" fill="url(#goldAccent)"/>
+    <circle cx="0" cy="170" r="5" fill="url(#goldAccent)"/>
+    <circle cx="0" cy="-110" r="5" fill="url(#goldAccent)"/>
+    <line x1="-50" y1="10" x2="50" y2="10" stroke="#b88a68" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="0" y1="-110" x2="0" y2="170" stroke="#b88a68" stroke-width="1" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Selo de Avaliação Estética Clínica -->
+  <g transform="translate(240, 850)">
+    <rect width="320" height="64" rx="32" fill="#ffffff" filter="url(#softShadow)"/>
+    <circle cx="36" cy="32" r="16" fill="#9c6644"/>
+    <path d="M30,32 L35,37 L43,27" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#1a1918">Protocolo de Alta Precisão</text>
+    <text x="64" y="47" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#5e5a55">Simetria &amp; Naturalidade Facial</text>
+  </g>
+</svg>
